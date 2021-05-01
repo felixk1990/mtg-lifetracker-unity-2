@@ -537,6 +537,7 @@ MonoBehaviour:
   start_life: 0
   num_players: 0
   rotation: 0
+  player_id: 2
   myPrefab: {fileID: 0}
   parent: {fileID: 0}
   playerPanel: {fileID: 0}
@@ -796,6 +797,7 @@ MonoBehaviour:
   start_life: 0
   num_players: 0
   rotation: 0
+  player_id: 1
   myPrefab: {fileID: 0}
   parent: {fileID: 0}
   playerPanel: {fileID: 0}
@@ -904,6 +906,7 @@ MonoBehaviour:
   start_life: 0
   num_players: 0
   rotation: 0
+  player_id: 3
   myPrefab: {fileID: 0}
   parent: {fileID: 0}
   playerPanel: {fileID: 0}

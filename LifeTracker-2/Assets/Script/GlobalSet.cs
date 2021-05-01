@@ -9,6 +9,7 @@ public class GlobalSet : MonoBehaviour
     public static int startLifePlayers;
     public static int startNumberPlayers;
     public static int startLevelID;
+    public static int id;
 
     public static void  DisableAutoRotationFromLandscape() {
         Screen.autorotateToPortrait = false;
@@ -21,6 +22,7 @@ public class GlobalSet : MonoBehaviour
         Screen.autorotateToLandscapeRight = false;
         Screen.autorotateToLandscapeLeft = false;
         Screen.orientation = ScreenOrientation.Portrait;
+
     }
     public static float SetScaleXY(GameObject Counter, float scalefactor){
 

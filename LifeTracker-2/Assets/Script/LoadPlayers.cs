@@ -7,15 +7,18 @@ public class LoadPlayers : MonoBehaviour
     public int start_life;
     public int num_players;
     public float rotation;
+
     public GameObject myPrefab;
     public GameObject parent;
     public GameObject playerPanel;
+    public GameObject CounterPanel;
 
     // Start is called before the first frame update
     void Start()
     {
-      Invoke("LoadPlayer", 0.1f);
+      Invoke("LoadPlayer", 0.05f);
     }
+
     public void LoadPlayer(){
 
       parent=gameObject;
@@ -31,9 +34,9 @@ public class LoadPlayers : MonoBehaviour
       myCounter.GetComponent<CounterMechanics>().InitPlayerLife();
       myCounter= playerPanel.transform.Find("CounterHolder").gameObject;
       myCounter.GetComponent<CounterMenu>().ResizeCounterIcons();
-
+      myCounter.GetComponent<CounterMenu>().player_id=gameObject;
       ResizeIconHolders();
-      ResizeIconMenu();
+      // ResizeIconMenu();
 
     }
     public void ResizePanel(GameObject G, GameObject parent){
@@ -57,7 +60,6 @@ public class LoadPlayers : MonoBehaviour
 
           mytransform.anchorMin= new Vector2(0.5f,0.4f);
           mytransform.anchorMax= new Vector2(0.5f,0.4f);
-
 
           float scaleXY=  GlobalSet.SetScaleXY(myMenu.transform.GetChild(i).gameObject, 0.3f);
           mytransform.offsetMin= new Vector2(-scaleXY,-scaleXY);

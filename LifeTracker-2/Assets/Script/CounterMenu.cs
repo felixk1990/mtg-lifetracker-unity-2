@@ -8,6 +8,7 @@ public class CounterMenu : MonoBehaviour
 
   public int numberCounters;
   public int numberID;
+  public GameObject player_id;
   public GameObject myPrefab;
   public GameObject playerCounter;
   public GameObject playerCounterIcon;
@@ -17,6 +18,7 @@ public class CounterMenu : MonoBehaviour
   public int mycolorID;
 
   void Start(){
+
     numberCounters=1;
     numberID=1;
     mycolorID=0;
@@ -136,5 +138,14 @@ public class CounterMenu : MonoBehaviour
     ResizeCounterIcons();
   }
 
+  public void StartCounterMenu(){
 
+    GameObject playerPanel= gameObject.transform.parent.gameObject;
+    GameObject parentPanel=  playerPanel.transform.parent.gameObject;
+    GameObject counterPanel=parentPanel.GetComponent<LoadPlayers>().CounterPanel;
+
+    counterPanel.SetActive(true);
+    counterPanel.transform.Find("ButtonGrid").gameObject.GetComponent<CallCounterMenu>().player_id=player_id;
+
+  }
 }
