@@ -12,6 +12,7 @@ public class LoadPlayers : MonoBehaviour
     public GameObject parent;
     public GameObject playerPanel;
     public GameObject CounterPanel;
+    public GameObject ColorPanel;
 
     // Start is called before the first frame update
     void Start()

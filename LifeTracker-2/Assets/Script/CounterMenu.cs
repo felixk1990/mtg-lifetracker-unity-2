@@ -86,26 +86,29 @@ public class CounterMenu : MonoBehaviour
 
   public void RecolorCounterPanels( int colorID ){
 
-        mycolorID=colorID;
-        int num_children= transform.childCount;
+    Debug.Log(colorID);
+    Debug.Log(  mycolorID);
+    mycolorID=colorID;
+    Debug.Log(  mycolorID);
+    int num_children= transform.childCount;
 
-        for( int i=0 ; i < num_children; i++){
+    for( int i=0 ; i < num_children; i++){
 
-          playerCounter = transform.GetChild(i).gameObject;
-          playerCounter.GetComponent<Image>().color= myColors[colorID];
+      playerCounter = transform.GetChild(i).gameObject;
+      playerCounter.GetComponent<Image>().color= myColors[colorID];
 
-          if(colorID >= 3){
-            colorCounterText(Color.black);
-            if(i==0){
-              colorCounterIcon(Color.black);
-            }else{
-                colorCounterIcon(myColors[colorID]);
-              }
-          }else{
-            colorCounterText(Color.white);
-            colorCounterIcon(Color.white);
-              }
-        }
+      if(colorID >= 3){
+        colorCounterText(Color.black);
+        if(i==0){
+          colorCounterIcon(Color.black);
+        }else{
+            colorCounterIcon(myColors[colorID]);
+          }
+      }else{
+        colorCounterText(Color.white);
+        colorCounterIcon(Color.white);
+          }
+    }
     }
 
   public void colorCounterText(Color32 colorMe){
@@ -146,6 +149,16 @@ public class CounterMenu : MonoBehaviour
 
     counterPanel.SetActive(true);
     counterPanel.transform.Find("ButtonGrid").gameObject.GetComponent<CallCounterMenu>().player_id=player_id;
+
+  }
+  public void StartColorMenu(){
+
+    GameObject playerPanel= gameObject.transform.parent.gameObject;
+    GameObject parentPanel=  playerPanel.transform.parent.gameObject;
+    GameObject colorPanel=parentPanel.GetComponent<LoadPlayers>().ColorPanel;
+
+    colorPanel.SetActive(true);
+    colorPanel.GetComponent<CallCounterMenu>().player_id=player_id;
 
   }
 }

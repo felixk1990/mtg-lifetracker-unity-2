@@ -212,6 +212,18 @@ MonoBehaviour:
           m_StringArgument: T_24_diamond_
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_7_head_scull_enemy_
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1685427551005065896
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,6 +434,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_5_drop_
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1956862056253376726
@@ -636,6 +660,18 @@ MonoBehaviour:
           m_StringArgument: T_24_diamond_
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_4_sword_saw_
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2192185161583345490
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +803,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_16_crown_
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2610516541331039839
@@ -902,6 +950,18 @@ MonoBehaviour:
           m_StringArgument: T_24_diamond_
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_9_flag_
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2699078737820729068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1093,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_1_scroll_
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &2917978052766457979
@@ -1247,6 +1319,18 @@ MonoBehaviour:
           m_StringArgument: T_24_diamond_
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_5_coin_bag2_
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3884356843494082279
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,6 +1541,18 @@ MonoBehaviour:
           m_StringArgument: T_24_diamond_
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_7_plant1_
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4589066114286745359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,6 +1684,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_4_shield_bezel_
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &4745429616333396865
@@ -1723,6 +1831,18 @@ MonoBehaviour:
           m_StringArgument: T_24_diamond_
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4919616586980271216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1759,8 +1879,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.45, y: 0.45}
   m_AnchorMax: {x: 0.55, y: 0.65}
-  m_AnchoredPosition: {x: -9.5, y: 0}
-  m_SizeDelta: {x: -19, y: 0}
+  m_AnchoredPosition: {x: 0.0000033379, y: 0}
+  m_SizeDelta: {x: -0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7417511976242042077
 CanvasRenderer:
@@ -1854,6 +1974,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_4_eye_bleed_
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &5380995953255343291
@@ -2224,6 +2356,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: T_24_diamond_
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4367628706381452903}
+        m_TargetAssemblyTypeName: CallCounterMenu, Assembly-CSharp
+        m_MethodName: CreateCounterPanel
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: T_3_magic_fire_
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &6235338304810390405
@@ -2605,7 +2749,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4466524263011246853}
-  - component: {fileID: 7389145747687160311}
   - component: {fileID: 4367628706381452903}
   m_Layer: 5
   m_Name: ButtonGrid
@@ -2646,47 +2789,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &7389145747687160311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7231256417260362237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808a26844b7f84ca7b68c891f97b296c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberCounters: 0
-  numberID: 0
-  player_id: {fileID: 0}
-  myPrefab: {fileID: 0}
-  playerCounter: {fileID: 0}
-  playerCounterIcon: {fileID: 0}
-  playerCounterText: {fileID: 0}
-  myColors:
-  - serializedVersion: 2
-    rgba: 1677721600
-  - serializedVersion: 2
-    rgba: 4294901885
-  - serializedVersion: 2
-    rgba: 4294901760
-  - serializedVersion: 2
-    rgba: 4278190335
-  - serializedVersion: 2
-    rgba: 4294902015
-  - serializedVersion: 2
-    rgba: 4278222335
-  - serializedVersion: 2
-    rgba: 4291362560
-  - serializedVersion: 2
-    rgba: 4294967295
-  - serializedVersion: 2
-    rgba: 4278255615
-  - serializedVersion: 2
-    rgba: 4278255360
-  mycolorID: 0
 --- !u!114 &4367628706381452903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3095,7 +3197,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35.8
+  m_fontSize: 36.9
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
