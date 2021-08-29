@@ -7,4 +7,10 @@ At the app includes:
 3. 1-4 players options and seating options
 4. Each player has a lifecounter panel which allows for individual coloring and the setup of additional counters
 
+##  Introduction
+
+##  Gallery
+
+## Acknowledgement
+```mtg-lifetracker-unity``` written by Felix Kramer
 
